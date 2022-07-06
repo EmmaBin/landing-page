@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    font-size: 16px;
+    background-color: #f3f3f4;
+    margin: 0;
+    justify-content: space-between;
+    padding: 10px;
+    color: #FA8628;
+
+}
+.right-links{
+    display: flex;
+    gap: 10px;
+}
+ul{ 
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FA8628;
+}
+.main-content{
+    display: flex;
+    background-color:#f3f3f4;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.text{
+    margin-left: 20px;
+    padding-right: 20%;
+    color:#f082ac;
+    
+}
+img{
+    border-radius: 25px;
+}
+button{
+    padding: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.second-content{
+    background-color: antiquewhite;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold; 
+    
+}
+
+.information{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.information img{
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+.third-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #1F2937;
+    text-align: center;
+    margin:30px;
+   
+}
+
+
+
+.sub{
+    border-radius: 15px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height:30%;
+    margin-left: 250px;
+    background-color:lavenderblush
+    /*besides hardwriting the width and the height into the div, 
+    is there any other way to put the div in the center of its' parent div*/
+    
+
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Dancing Script', Cursive, Arial;
+    font-size: 15px;
+}
